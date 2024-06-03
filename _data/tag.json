@@ -113,7 +113,7 @@
         "category": "file"
     },
     {
-        "name": "#",
+        "name": "inline-comment",
         "description": "(inline comment) add comments to a Liquid template using an inline tag.",
         "version": "9.38.0",
         "category": "language"

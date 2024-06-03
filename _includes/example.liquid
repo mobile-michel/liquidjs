@@ -1,0 +1,16 @@
+---
+title: {{ title }}
+eleventyComputed:
+  raw: {{ code }}
+---
+<h3>Example {{ number }}</h3>
+<p>input:
+<pre><code>
+        {% echo code %}
+    </code></pre>
+</p>
+<p>output:
+<pre><code>
+        {{ raw }}
+    </code></pre>
+</p>

@@ -1,8 +1,9 @@
 ---
-title: Tag cat
-description:  create the logic and control flow for templates.
+title: Tag categories
+description: various types like iteration, control flow, variable, file & language.
 layout: default
-tags: [primary, footer]
+tags: [index, footer]
+date: 2024-02-03
 ---
 {% for item in tags-category %}
 - **{{ item.name }}**: {{ item.description }}
