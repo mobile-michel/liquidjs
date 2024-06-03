@@ -1,0 +1,21 @@
+{
+  "name": "liquidjs",
+  "version": "1.0.0",
+  "description": "LiquidJS template engine with element's database",
+  "main": "eleventy.config.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "serve": "npx decap-server & npx @11ty/eleventy --serve",
+    "build": "eleventy",
+    "build-gp": "eleventy --pathprefix 'liquidjs'"
+  },
+  "keywords": [
+    "eleventy",
+    "liquid"
+],
+  "author": "Michel Maillard",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

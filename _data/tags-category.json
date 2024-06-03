@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Iteration",
+        "description": "iterate over a collection."
+    },
+    {
+        "name": "Control Flow",
+        "description": "control the execution branch of template rendering."
+    },
+    {
+        "name": "Variable",
+        "description": "define and alter variables."
+    },
+    {
+        "name": "File",
+        "description": "include another template or extend a layout template."
+    },
+    {
+        "name": "Language",
+        "description": "temporarily disable LiquidJS syntax."
+    }
+]

@@ -1,0 +1,512 @@
+[
+    {
+        "name": "plus",
+        "description": "Adds a number to another number.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "math"
+    },
+    {
+        "name": "minus",
+        "description": "Subtracts a number from another number.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "math"
+    },
+    {
+        "name": "modulo",
+        "description": "Returns the remainder of a division operation.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "math"
+    },
+    {
+        "name": "times",
+        "description": "Multiplies a number by another number.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "math"
+    },
+    {
+        "name": "floor",
+        "description": "Rounds the input down to the nearest whole number",
+        "version": "1.9.1",
+        "active": true,
+        "category": "math"
+    },
+    {
+        "name": "ceil",
+        "description": "Rounds the input up to the nearest whole number",
+        "version": "1.9.1",
+        "active": true,
+        "category": "math"
+    },
+    {
+        "name": "round",
+        "description": "Rounds a number to the nearest integer or, if a number is passed as an argument, to that number of decimal places",
+        "version": "1.9.1",
+        "active": true,
+        "category": "math"
+    },
+    {
+        "name": "divided_by",
+        "description": "Divides a number by another number.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "math"
+    },
+    {
+        "name": "abs",
+        "description": "Returns the absolute value of a number",
+        "version": "1.9.1",
+        "active": true,
+        "category": "math"
+    },
+    {
+        "name": "at_least",
+        "description": "Limits a number to a minimum value",
+        "version": "8.4.0",
+        "active": true,
+        "category": "math"
+    },
+    {
+        "name": "at_most",
+        "description": "Limits a number to a maximum value",
+        "version": "8.4.0",
+        "active": true,
+        "category": "math"
+    },
+    {
+        "name": "append",
+        "description": "append string to input.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "prepend",
+        "description": "prepend string to input.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "capitalize",
+        "description": "capitalize first letter of input.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "upcase",
+        "description": "convert input to uppercase.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "downcase",
+        "description": "convert input to lowercase.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "strip",
+        "description": "remove whitespace from input.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "lstrip",
+        "description": "Removes all whitespace (tabs, spaces, and newlines) from the left side of a string.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "rstrip",
+        "description": "Removes all whitespace (tabs, spaces, and newlines) from the right side of a string.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "strip_newlines",
+        "description": "Removes any newline characters (line breaks) from a string.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "split",
+        "description": "Divides a string into an array using the argument as a separator.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "replace",
+        "description": "Replaces every occurrence of the first argument in a string with the second argument.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "replace_first",
+        "description": "Replaces only the first occurrence of the first argument in a string with the second argument.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "replace_last",
+        "description": "Replaces only the last occurrence of the first argument in a string with the second argument.",
+        "version": "10.2.0",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "remove",
+        "description": "Removes every occurrence of the specified substring from a string.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "remove_first",
+        "description": "Removes only the first occurrence of the specified substring from a string.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "remove_last",
+        "description": "Removes only the last occurrence of the specified substring from a string.",
+        "version": "10.2.0",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "truncate",
+        "description": "Shortens a string down to the number of characters passed as an argument.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "truncatewords",
+        "description": "Shortens a string down to the number of words passed as an argument.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "string"
+    },
+    {
+        "name": "normalize_whitespace",
+        "description": "Replace any occurrence of whitespace with a single space.",
+        "version": "10.13.0",
+        "active": false,
+        "category": "string"
+    },
+    {
+        "name": "number_of_words",
+        "description": "Count the number of words in some text.",
+        "version": "10.13.0",
+        "active": false,
+        "category": "string"
+    },
+    {
+        "name": "array_to_sentence_string",
+        "description": "Convert an array into a sentence, useful for listing tags.",
+        "version": "10.13.0",
+        "active": false,
+        "category": "string"
+    },
+    {
+        "name": "escape",
+        "description": "escapes a string by replacing HTML special characters with escape sequences.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "html"
+    },
+    {
+        "name": "escape_once",
+        "description": "escapes a string without changing existing escaped entities.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "html"
+    },
+    {
+        "name": "url_encode",
+        "description": "converts any URL-unsafe characters in a string into percent-encoded characters.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "html"
+    },
+    {
+        "name": "url_decode",
+        "description": "decodes a string that has been encoded as a URL.",
+        "version": "6.1.0",
+        "active": true,
+        "category": "html"
+    },
+    {
+        "name": "strip_html",
+        "description": "removes any HTML tags from a string.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "html"
+    },
+    {
+        "name": "newline_to_br",
+        "description": "replaces every newline in a string with an HTML line break.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "html"
+    },
+    {
+        "name": "xml_escape",
+        "description": "escape some text for use in XML.",
+        "version": "10.13.0",
+        "active": false,
+        "category": "html"
+    },
+    {
+        "name": "cgi_escape",
+        "description": "CGI escape a string for use in a URL.",
+        "version": "10.13.0",
+        "active": false,
+        "category": "html"
+    },
+    {
+        "name": "uri_escape",
+        "description": "percent encodes any special characters in a URI.",
+        "version": "10.13.0",
+        "active": false,
+        "category": "html"
+    },
+    {
+        "name": "slugify",
+        "description": "convert a string into a lowercase URL “slug”.",
+        "version": "10.13.0",
+        "active": false,
+        "category": "html"
+    },
+    {
+        "name": "slice",
+        "description": "Returns a substring of 1 character beginning at the index specified by the first argument.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "map",
+        "description": "Creates an array of values by extracting the values of a named property from another object.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "sort",
+        "description": "Sorts items in an array in case-sensitive order.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "sort_natural",
+        "description": "Sorts items in an array in case-insensitive order.",
+        "version": "8.4.0",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "uniq",
+        "description": "remove duplicate elements from array.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "where",
+        "description": "Creates an array including only the objects with a given property value, or any truthy value by default.",
+        "version": "8.1.0",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "where_exp",
+        "description": "Select all the objects in an array where the expression is true.",
+        "version": "10.12.0",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "group_by",
+        "description": "Group an array’s items by a given property.",
+        "version": "10.11.0",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "group_by_exp",
+        "description": "Group an array’s items using a Liquid expression.",
+        "version": "10.11.0",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "find",
+        "description": "Return the first object in an array for which the queried attribute has the given value or return nil if no item in the array satisfies the given criteria.",
+        "version": "10.11.0",
+        "active": false,
+        "category": "array"
+    },
+    {
+        "name": "find_exp",
+        "description": "Return the first object in an array for which the given expression evaluates to true or return nil if no item in the array satisfies the evaluated expression.",
+        "version": "10.11.0",
+        "active": false,
+        "category": "array"
+    },
+    {
+        "name": "first",
+        "description": "Returns the first item of an array.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "last",
+        "description": "Returns the last item of an array.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "join",
+        "description": "Combines the items in an array into a single string using the argument as a separator.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "reverse",
+        "description": "Reverses the order of the items in an array.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "concat",
+        "description": "Concatenates (joins together) multiple arrays, the resulting array contains all the items from the input arrays.",
+        "version": "2.0.0",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "compact",
+        "description": "Removes any nil values from an array.",
+        "version": "9.22.0",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "size",
+        "description": "Returns the number of characters in a string or the number of items in an array.",
+        "version": "1.9.1",
+        "active": true,
+        "category": "array"
+    },
+    {
+        "name": "push",
+        "description": "Push an element into array. It’s NON-DESTRUCTIVE, i.e. it does not mutate the array, but rather make a copy and mutate that.",
+        "version": "10.8.0",
+        "category": "array"
+    },
+    {
+        "name": "pop",
+        "description": "Pop an element from the array. It’s NON-DESTRUCTIVE, i.e. it does not mutate the array, but rather make a copy and mutate that.",
+        "version": "10.11.0",
+        "category": "array"
+    },
+    {
+        "name": "shift",
+        "description": "Shift an element from the array. It’s NON-DESTRUCTIVE, i.e. it does not mutate the array, but rather make a copy and mutate that.",
+        "version": "10.11.0",
+        "category": "array"
+    },
+    {
+        "name": "unshift",
+        "description": "Unshift an element to the front of the array. It’s NON-DESTRUCTIVE, i.e. it does not mutate the array, but rather make a copy and mutate that.",
+        "version": "10.11.0",
+        "category": "array"
+    },
+    {
+        "name": "date",
+        "description": "Used to convert a timestamp into the specified format.",
+        "version": "1.9.1",
+        "category": "date"
+    },
+    {
+        "name": "date_to_xmlschema",
+        "description": "Convert a Date into XML Schema (ISO 8601) format.",
+        "version": "10.13.0",
+        "category": "date"
+    },
+    {
+        "name": "date_to_rfc822",
+        "description": "Convert a Date into the RFC-822 format used for RSS feeds.",
+        "version": "10.13.0",
+        "category": "date"
+    },
+    {
+        "name": "date_to_string",
+        "description": "Convert a date to short format.",
+        "version": "10.13.0",
+        "category": "date"
+    },
+    {
+        "name": "date_to_long_string",
+        "description": "Convert a date to long format.",
+        "version": "10.13.0",
+        "category": "date"
+    },
+    {
+        "name": "default",
+        "description": "Allows you to specify a fallback in case a value doesn’t exist.",
+        "version": "1.9.1",
+        "category": "misc"
+    },
+    {
+        "name": "json",
+        "description": "Convert values to string via JSON.stringify(), for debug purpose.",
+        "version": "9.10.0",
+        "category": "misc"
+    },
+    {
+        "name": "jsonify",
+        "description": "Convert values to string via JSON.stringify(), for debug purpose, like json filter.",
+        "version": "10.13.0",
+        "category": "misc"
+    },
+    {
+        "name": "inspect",
+        "description": "Similar with json, but inspect allows cyclic structure.",
+        "version": "10.13.0",
+        "category": "misc"
+    },
+    {
+        "name": "raw",
+        "description": "Directly returns the value of the variable.",
+        "version": "9.37.0",
+        "category": "misc"
+    },
+    {
+        "name": "to_integer",
+        "description": "Convert values to number.",
+        "version": "10.13.0",
+        "category": "misc"
+    }
+]

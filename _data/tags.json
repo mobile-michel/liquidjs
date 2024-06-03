@@ -1,0 +1,139 @@
+[
+    {
+        "name": "for",
+        "details": true,
+        "description": "iteration tags run blocks of code repeatedly.",
+        "example": "{% for item in objects %}{{ item }}{% endfor %}",
+        "notes": "basic usage is 'for...in' + else + break + continue + forloop.",
+        "parameters": "limit + offset + range + reversed.",
+        "version": "1.9.1",
+        "category": "iteration"
+    },
+    {
+        "name": "cycle",
+        "description": "loops through a group of strings and prints them in the order that they were passed as arguments.",
+        "example": "{% cycle 'one', 'two', 'three' %}",
+        "version": "1.9.1",
+        "category": "iteration"
+    },
+    {
+        "name": "tablerow",
+        "details": true,
+        "description": "generates an HTML table.",
+        "version": "1.9.1",
+        "category": "iteration"
+    },
+    {
+        "name": "if",
+        "description": "executes a block of code only if a certain condition is true.",
+        "version": "1.9.1",
+        "category": "control Flow"
+    },
+    {
+        "name": "unless",
+        "description": "executes a block of code only if a certain condition is not met.",
+        "version": "1.9.1",
+        "category": "control Flow"
+    },
+    {
+        "name": "elsif",
+        "relation": "if",
+        "description": "adds more conditions within an if or unless block.",
+        "version": "1.9.1",
+        "category": "control Flow"
+    },
+    {
+        "name": "else",
+        "relation": "if",
+        "description": "adds more conditions within an if or unless block.",
+        "version": "1.9.1",
+        "category": "control Flow"
+    },
+    {
+        "name": "case",
+        "description": "creates a switch statement to compare a variable with different values.",
+        "version": "1.9.1",
+        "category": "control Flow"
+    },
+    {
+        "name": "when",
+        "relation": "case",
+        "description": "creates a switch statement to compare a variable with different values.",
+        "version": "1.9.1",
+        "category": "control Flow"
+    },
+    {
+        "name": "assign",
+        "description": "creates a new variable.",
+        "version": "1.9.1",
+        "category": "variable"
+    },
+    {
+        "name": "increment",
+        "description": "creates a new number variable, and increases its value by one every time it is called.",
+        "version": "1.9.1",
+        "category": "variable"
+    },
+    {
+        "name": "decrement",
+        "description": "creates a new number variable, and decreases its value by one every time it is called.",
+        "version": "1.9.1",
+        "category": "variable"
+    },
+    {
+        "name": "capture",
+        "description": "captures the string inside of the opening and closing tags and assigns it to a variable.",
+        "version": "1.9.1",
+        "category": "variable"
+    },
+    {
+        "name": "echo",
+        "description": "outputs an expression in the rendered HTML.",
+        "version": "9.31.0",
+        "category": "variable"
+    },
+    {
+        "name": "render",
+        "details": true,
+        "description": "render a partial template from partials directory.",
+        "version": "9.2.0",
+        "category": "file"
+    },
+    {
+        "name": "include",
+        "description": "*deprecated*, use render instead.",
+        "version": "1.9.1",
+        "category": "file"
+    },
+    {
+        "name": "layout",
+        "details": true,
+        "description": "introduce a layout template for the current template to render in.",
+        "version": "1.9.1",
+        "category": "file"
+    },
+    {
+        "name": "#",
+        "description": "(inline comment) add comments to a Liquid template using an inline tag.",
+        "version": "9.38.0",
+        "category": "language"
+    },
+    {
+        "name": "raw",
+        "description": "raw temporarily disables tag processing.",
+        "version": "1.9.1",
+        "category": "language"
+    },
+    {
+        "name": "comment",
+        "description": "allows you to leave un-rendered code inside a Liquid template.",
+        "version": "1.9.1",
+        "category": "language"
+    },
+    {
+        "name": "liquid",
+        "description": "encloses multiple tags within one set of delimiters, to allow writing Liquid logic more concisely.",
+        "version": "9.31.0",
+        "category": "language"
+    }
+]

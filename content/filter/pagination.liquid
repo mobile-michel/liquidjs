@@ -1,0 +1,31 @@
+---
+title: Filters
+layout: default
+date: 2024-01-03
+eleventyExcludeFromCollections: true
+pagination:
+  data: filters
+  size: 1
+permalink: "{{ pagination.items[0].name | slugify | prepend: '/filter/' | append: '/' }}"
+---
+{% include 'pagination/paginate' %}
+<h3>{{ pagination.items[0].name | capitalize }}</h3>
+<h4>Category: {{ pagination.items[0].category }}</h4>
+<p>{{ pagination.items[0].description | capitalize }}</p>
+{% if pagination.items[0].relation %}
+<p>Relate to <a href="/tag/{{ pagination.items[0].relation }}">{{ pagination.items[0].relation }}</a></p>
+<p><a href="https://liquidjs.com/filters/{{ pagination.items[0].relation }}.html" target="_blank">LiquidJS Doc</a></p>
+{% else %}
+<p><a href="https://liquidjs.com/filters/{{ pagination.items[0].name }}.html" target="_blank">LiquidJS Doc</a></p>
+{% endif %}
+{% if pagination.items[0].details %}
+<p>This tag has more details on <a href="/tag/examples/{{ pagination.items[0].name }}">this page</a>.</p>
+{% endif %}
+{% if pagination.items[0].notes %}
+<p><strong>Notes</strong>: {{ pagination.items[0].notes }}</p>
+{% endif %}
+{% if pagination.items[0].parameters %}
+<p><strong>Parameters</strong>: {{ pagination.items[0].parameters }}</p>
+{% endif %}
+<h4>Example</h4>
+{{ pagination.items[0].example }}

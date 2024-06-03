@@ -1,0 +1,31 @@
+[
+    {
+        "name": "string",
+        "description": "sequences of characters wrapped in single or double quotes.",
+        "example": "Hello World"
+    },
+    {
+        "name": "number",
+        "description": "include floats and integers.",
+        "example": "100"
+    },
+    {
+        "name": "boolean",
+        "description": "booleans are either true or false.",
+        "example": "true"
+    },
+    {
+        "name": "nil",
+        "description": "special empty value that is returned when Liquid code has no results."
+    },
+    {
+        "name": "array",
+        "description": "hold lists of variables of any type.",
+        "example": "['Tobi', 'Bob', 'Laura']"
+    },
+    {
+        "name": "emptyDrop",
+        "description": "returned if you try to access a deleted object.",
+        "example": "nil"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "math",
+        "description": "perform mathematical operation on numbers."
+    },
+    {
+        "name": "string",
+        "description": "manipulate outputs and variables of the string type."
+    },
+    {
+        "name": "html",
+        "description": "wrap assets in HTML tags."
+    },
+    {
+        "name": "array",
+        "description": "used to modify the output of arrays."
+    },
+    {
+        "name": "date",
+        "description": "Perform date operations"
+    },
+    {
+        "name": "misc",
+        "description": "Miscellaneous filters."
+    }
+]
