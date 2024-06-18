@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "category": "business"
+        },
+        {
+            "category": "celebrities"
+        },
+        {
+            "category": "Lifestyle"
+        },
+        {
+            "category": "sports"
+        },
+        {
+            "category": "archeology"
+        }
+    ]
+}

@@ -2,7 +2,7 @@
 title: Tests
 description: Test pages for objects, tags and filters.
 layout: default
-override:tags: [index, primary]
+override:tags: [index, footer]
 date: 2024-04-01
 ---
 {% for item in collections.test %}

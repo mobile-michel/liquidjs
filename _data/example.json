@@ -1,0 +1,18 @@
+{
+    "collection": {
+      "products": [
+        {
+          "title": "Draught of Immortality"
+        },
+        {
+          "title": "Glacier ice"
+        },
+        {
+          "title": "Health potion"
+        },
+        {
+          "title": "Invisibility potion"
+        }
+      ]
+    }
+  }

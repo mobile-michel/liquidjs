@@ -15,10 +15,6 @@ header {
     }
 }
 
-section {
-    overflow-x: auto;
-}
-
 pre {
     background-color: var(--grey300);
     font-size: smaller;
