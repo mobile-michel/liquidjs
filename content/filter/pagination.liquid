@@ -13,13 +13,13 @@ permalink: "{{ pagination.items[0].name | slugify | prepend: '/filter/' | append
 <h4>Category: {{ pagination.items[0].category }}</h4>
 <p>{{ pagination.items[0].description | capitalize }}</p>
 {% if pagination.items[0].relation %}
-<p>Relate to <a href="/tag/{{ pagination.items[0].relation }}">{{ pagination.items[0].relation }}</a></p>
+<p>Relate to <a href="{{ pagination.items[0].relation | prepend: '/tag/' | url }}">{{ pagination.items[0].relation }}</a></p>
 <p><a href="https://liquidjs.com/filters/{{ pagination.items[0].relation }}.html" target="_blank">LiquidJS Doc</a></p>
 {% else %}
-<p><a href="https://liquidjs.com/filters/{{ pagination.items[0].name }}.html" target="_blank">LiquidJS Doc</a></p>
+<p><a href="https://liquidjs.com/filters/{{ pagination.items[0].name }}.html" target="_blank">LiquidJS Doc</a> | <a href="{{ pagination.items[0].name | prepend: '/filter/examples/' | url }}">Examples</a></p></p>
 {% endif %}
 {% if pagination.items[0].details %}
-<p>This tag has more details on <a href="/tag/examples/{{ pagination.items[0].name }}">this page</a>.</p>
+<p>This tag has more details on <a href="{{ pagination.items[0].name | prepend: '/filter/examples/' | url }}">this page</a>.</p>
 {% endif %}
 {% if pagination.items[0].notes %}
 <p><strong>Notes</strong>: {{ pagination.items[0].notes }}</p>

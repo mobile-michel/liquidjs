@@ -8,7 +8,7 @@ tags:
   - footer
 ---
 {% for item in collections.index %}
-- [{{ item.data.title }}]({{ item.url }}): {{ item.data.description }}
+- [{{ item.data.title }}]({{ item.url | url }}): {{ item.data.description }}
 {% endfor %}
 
 ## Interesting links
